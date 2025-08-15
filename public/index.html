@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sequential Word Game</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div id="timer-bar"><div id="timer-fill"></div></div>
+  <canvas id="word-canvas"></canvas>
+  <input type="text" id="word-input" maxlength="5" autocomplete="off" />
+  <button id="ready-btn">READY</button>
+  <button id="reset-btn">RESET GAME</button>
+  <div id="info"></div>
+  <audio id="beep" src="beep.mp3" preload="auto"></audio>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>
