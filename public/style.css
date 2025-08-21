@@ -41,6 +41,7 @@
     display: block;
     z-index: 1;
     background-color: transparent;
+    mix-blend-mode: difference;
   }
   
   #word-input {
