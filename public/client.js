@@ -26,7 +26,7 @@ function drawWord(word) {
     // preload font
     document.fonts.load('100px Sprintura').then(() => {
       ctx.save();
-      ctx.fillStyle = 'rgb(255,255,0)';
+      ctx.fillStyle = 'rgb(255,0,0)';
       ctx.textAlign = 'center';
       ctx.textBaseline = 'middle';
   
